@@ -1,0 +1,16 @@
+.ConceptTile {
+  color: #333;
+}
+
+.ConceptTile-heading {
+  font-size: 16px;
+}
+
+.ConceptTile-body {
+  color: #999;
+  font-size: 14px;
+}
+
+.ConceptTile-body > span {
+  display: block;
+}

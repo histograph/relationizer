@@ -1,0 +1,30 @@
+.TypeaheadList {
+  position: relative;
+  border: 1px solid #ccc;
+  border-top: 0;
+  background-color: white;
+  max-height: 400px;
+  overflow-y: scroll;
+  border-radius: 0 0 3px 3px;
+}
+
+.TypeaheadList-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.TypeaheadList-listItem {
+  padding: 10px;
+  border-bottom: 1px solid #f5edf0;
+}
+
+.TypeaheadList-listItem:last-child {
+  border-bottom: 0;
+}
+
+.TypeaheadList-listItem__active,
+.TypeaheadList-listItem:hover {
+  cursor: pointer;
+  background-color: #f5edf0;
+}

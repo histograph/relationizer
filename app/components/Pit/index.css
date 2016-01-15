@@ -1,0 +1,43 @@
+.PitCard {
+  border: 1px solid #f5edf0;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.PitCard-heading {
+  font-size: 16px;
+}
+
+.PitCard-body {
+  font-size: 14px;
+  color: #999;
+}
+
+.PitCard-body > span {
+  display: block;
+}
+
+.PitCard-data {
+  margin: 1em 0 0 0;
+}
+
+.PitCard-data > dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  color: #333;
+}
+
+.PitCard-data > dt:after {
+  content: ":";
+}
+
+.PitCard-data > dd {
+  margin: 0 0 0 110px;
+  padding: 0 0 1em 0;
+}
+
+.PitCard-data > dd:last-child {
+  padding-bottom: 0;
+}

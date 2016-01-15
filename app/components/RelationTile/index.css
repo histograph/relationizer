@@ -1,0 +1,19 @@
+.Concept {
+
+}
+
+.Concept-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Concept-type {
+  color: #999;
+  font-size: 0.875em;
+}
+
+.Concept-dataset {
+  color: #999;
+  font-family: monospace, monospace;
+  font-size: 0.875em;
+}
